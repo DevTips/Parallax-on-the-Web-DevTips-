@@ -4,7 +4,7 @@ Video Series [ for free on YouTube](https://www.youtube.com/playlist?list=PLqGj3
 
 ## Releases
 
-Releases correspond to the videos. Visit the releases page on this repo to find the specific state of the code base. In other words; if you are watching video 2 and want to grab the code form that point. You will want to look for that [here](#).
+Releases correspond to the videos. Visit the releases page on this repo to find the specific state of the code base. In other words; if you are watching video 2 and want to grab the code form that point. You will want to look for that [here](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases), or below.
 
 ## Video 1 - "Intro to Parallax on the Web"
 
@@ -18,8 +18,8 @@ Releases correspond to the videos. Visit the releases page on this repo to find 
 
 <a href="https://youtu.be/WTZpNAbz3jg"><img src="https://i.ytimg.com/vi/WTZpNAbz3jg/mqdefault.jpg"><br>Watch on YouTube</a>
 
-- This is where the project starts. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.1).
-- This is where the project stops at the end of this video. [Get the code]().
+- This is where the project starts. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.0).
+- This is where the project stops at the end of this video. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.1).
 
 ---
 

@@ -4,9 +4,9 @@ var pContainerHeight = $('.bird-box').height();
 
 $(window).scroll(function () {
 
-    var wScroll = $(window).scrollTop();
+    var wScroll = $(this).scrollTop();
 
-    // only apply parallax translations when the pContainerHeight is visible
+    // only apply parallax translations while the pContainerHeight is visible in the viewport
 
     if (wScroll <= pContainerHeight) {
 

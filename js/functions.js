@@ -1,17 +1,27 @@
-$(window).scroll(function(){
+//Get the height of parallax container
 
-  var wScroll = $(this).scrollTop();
+var pContainerHeight = $('.bird-box').height();
 
-  $('.logo').css({
-    'transform' : 'translate(0px, '+ wScroll /2 +'%)'
-  });
+$(window).scroll(function () {
 
-  $('.back-bird').css({
-    'transform' : 'translate(0px, '+ wScroll /4 +'%)'
-  });
+    var wScroll = $(this).scrollTop();
 
-  $('.fore-bird').css({
-    'transform' : 'translate(0px, -'+ wScroll /40 +'%)'
-  });
+    // only apply parallax translations while the pContainerHeight is visible in the viewport
+
+    if (wScroll <= pContainerHeight) {
+
+        $('.logo').css({
+            'transform': 'translate(0px, ' + wScroll / 2 + '%)'
+        });
+
+        $('.back-bird').css({
+            'transform': 'translate(0px, ' + wScroll / 4 + '%)'
+        });
+
+        $('.fore-bird').css({
+            'transform': 'translate(0px, -' + wScroll / 40 + '%)'
+        });
+
+    }
 
 });

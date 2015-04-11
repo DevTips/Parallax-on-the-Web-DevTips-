@@ -21,6 +21,14 @@ Releases correspond to the videos. Visit the releases page on this repo to find 
 - This is where the project starts. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.0).
 - This is where the project stops at the end of this video. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.1).
 
+
+
+## Video 3 - "Landing Elements"
+
+<a href="https://youtu.be/-iOdDz2LnEk"><img src="https://i.ytimg.com/vi/-iOdDz2LnEk/mqdefault.jpg"><br>Watch on YouTube</a>
+
+- Grab the code we wrote in this video. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.2).
+
 ---
 
 _If this stuff is helpful, consider subscribing to my [YouTube Channel](https://www.youtube.com/user/DevTipsForDesigners)_

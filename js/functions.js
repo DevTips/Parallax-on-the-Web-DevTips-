@@ -20,7 +20,7 @@ $(window).scroll(function(){
 
       setTimeout(function(){
         $('.clothes-pics figure').eq(i).addClass('is-showing');
-      }, 150 * (i+1));
+      }, (700 * (Math.exp(i * 0.14))) - 700);
     });
 
   }

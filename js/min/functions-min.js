@@ -1,0 +1,1 @@
+window.addEventListener("scroll",function(){var e=this.pageYOffset;document.querySelector(".logo").style.transform="translate(0px, "+e/2+"%)",document.querySelector(".back-bird").style.transform="translate(0px, "+e/4+"%)",document.querySelector(".fore-bird").style.transform="translate(0px, -"+e/40+"%)"});

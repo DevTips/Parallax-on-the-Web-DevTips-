@@ -38,6 +38,14 @@ Releases correspond to the videos. Visit the releases page on this repo to find 
 - Grab the code we wrote in this video. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.3).
 
 
+
+## Video 5 - "Parallax Thumbnails"
+
+<a href="https://youtu.be/KzP7YXcHNcE"><img src="https://i.ytimg.com/vi/KzP7YXcHNcE/mqdefault.jpg"><br>Watch on YouTube</a>
+
+- Grab the code we wrote in this video. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.4).
+
+
 ---
 
 

@@ -39,7 +39,7 @@ Releases correspond to the videos. Visit the releases page on this repo to find 
 
 
 
-## Video 5 - "Parallax Thumbnails"
+## Video 5 - "Zooming Thumbnails"
 
 <a href="https://youtu.be/KzP7YXcHNcE"><img src="https://i.ytimg.com/vi/KzP7YXcHNcE/mqdefault.jpg"><br>Watch on YouTube</a>
 

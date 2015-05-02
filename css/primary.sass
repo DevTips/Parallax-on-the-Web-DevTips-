@@ -6,8 +6,16 @@ body
   font-family: "Open Sans", sans-serif
 
 h1
-  color: #ccc
-  weight: 300
+  font-size: 6.5rem
+  color: $title
+  weight: 400
+  margin-top: -25px
+
+h2
+  font-size: 2.1rem
+  font-weight: 400
+  text-transform: uppercase
+  margin-top: -15px
 
 figure
   margin: auto
@@ -21,8 +29,6 @@ figure
 
 img
   max-width: 100%
-
-
 
 // Parallax
 
@@ -56,8 +62,8 @@ img
     position: right bottom
   position: absolute
   left: 50%
-  margin-left: -480px
-  top: 380px
+  margin-left: -285px
+  top: 250px
 
 .back-bird
   width: 960px
@@ -70,19 +76,57 @@ img
   left: 50%
   margin-left: -480px
 
-
-
 // Model Grid
 
 .clothes-pics
+  margin-top: 35px
+  margin-bottom: 25px
 
   figure
     margin-bottom: 20px
     position: relative
     opacity: 0
-    transform: translateX(30px)
-    transition: all 0.4s ease-in-out
+    transform: translateX(20px)
+    transition: all 0.3s ease-in-out
+    overflow: hidden
+    cursor: pointer
 
     &.is-showing
       opacity: 1
       transform: translateX(0px)
+
+    img
+      display: block
+      transform: scale(1)
+      transition: all 0.3s ease-in-out
+
+    &:hover
+      figcaption
+        left: 0%
+
+      img
+        transform: scale(0.8)
+
+  figcaption
+    position: absolute
+    bottom: 10px
+    left: -100%
+    background: black
+    color: white
+    padding: 2px 8px
+    font-size: 11px
+    transition: all 0.3s ease-in-out
+
+// large-window
+
+.large-window
+  height: 640px
+  width: 640px
+  margin-top: 80px
+  margin-bottom: 80px
+  background:
+    position: center 0px
+    repeat: repeat-y
+    attachment: fixed
+  border-radius: 50%
+  cursor: pointer

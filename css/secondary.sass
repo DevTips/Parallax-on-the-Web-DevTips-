@@ -1,8 +1,45 @@
+@import vars 
+
 // Typography
 
-@import 'vars.sass'
-
+hr
+  border-top: 1px solid $title
+  margin-top: 10px
+  margin-bottom: 15px
 hr.solid
   border-top: 1.5px solid $title-smooth
 hr.dashed
   border-top: 1.5px dashed $title-smooth
+
+// Images
+
+.cover-image
+  background-color: $secundary-faded
+
+.tile
+  width: 100%
+  height: 100%
+  h1
+    color: $title
+    font-family: "Open Sans", sans-serif
+  background: $secundary-faded
+
+// Periscope
+
+.periscope-1
+  background-image: url(/images/model11.jpg)
+.periscope-2
+  background-image: url(/images/model17.jpg)
+
+.large-window:hover
+  background:
+    color: $secundary-faded
+    blend-mode: multiply
+    
+// Other
+
+footer
+  p, a
+    text-align: center
+    color: $text-smooth
+    text-decoration: none

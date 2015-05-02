@@ -73,6 +73,7 @@ img
 // Model Grid
 
 .clothes-pics
+  margin-bottom: 100px
 
   figure
     margin-bottom: 20px
@@ -80,10 +81,34 @@ img
     opacity: 0
     transform: translateX(20px)
     transition: all 0.3s ease-in-out
+    overflow: hidden
+    cursor: pointer
 
     &.is-showing
       opacity: 1
       transform: translateX(0px)
+
+    img
+      display: block
+      transform: scale(1)
+      transition: all 0.3s ease-in-out
+
+    &:hover
+      figcaption
+        left: 0%
+
+      img
+        transform: scale(1.1)
+
+  figcaption
+    position: absolute
+    bottom: 10px
+    left: -100%
+    background: black
+    color: white
+    padding: 2px 8px
+    font-size: 11px
+    transition: all 0.3s ease-in-out
 
 
 
@@ -92,7 +117,7 @@ img
 .large-window
   height: 640px
   background:
-    image: url(/images/model3.jpg)
+    image: url(/images/model2.jpg)
     position: center 0px
     repeat: repeat-y
     attachment: fixed

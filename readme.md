@@ -46,6 +46,13 @@ Releases correspond to the videos. Visit the releases page on this repo to find 
 - Grab the code we wrote in this video. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.4).
 
 
+
+## Video 6 - "Promo-Scope"
+
+<a href="https://youtu.be/zEXubVd_y_M"><img src="https://i.ytimg.com/vi/zEXubVd_y_M/mqdefault.jpg"><br>Watch on YouTube</a>
+
+- Grab the code we wrote in this video. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.5).
+
 ---
 
 

@@ -25,8 +25,20 @@ $(window).scroll(function(){
 
       setTimeout(function(){
         $('.clothes-pics figure').eq(i).addClass('is-showing');
-      }, (700 * (Math.exp(i * 0.14))) - 700);
+      }, 150 * (i+1));
     });
+
+  }
+
+  if(wScroll > $('.large-window').offset().top - $(window).height()){
+
+    $('.large-window').css({'background-position':'center '+ (-wScroll/35) +'px'});
+
+    var opacity1 = (wScroll - $('.large-window').offset().top + 400) / (wScroll / 5);
+    var opacity2 = (wScroll - $('.large-window').offset().top + 400 - 640) / (wScroll / 5);
+
+    $('.window-tint.periscope-1').css({'opacity': opacity1});
+    $('.window-tint.periscope-2').css({'opacity': opacity2});
 
   }
 

@@ -29,7 +29,10 @@ $(window).scroll(function(){
 
     $('.large-window').css({'background-position':'center '+ (wScroll - $('.large-window').offset().top) +'px'});
 
-    var opacity = (wScroll - $('.large-window').offset().top + 400) / (wScroll / 5);
+    // original statement
+    // var opacity = (wScroll - $('.large-window').offset().top + 400) / (wScroll / 5);
+
+    var opacity = 1 - ( $('.large-window').offset().top - wScroll ) / $(window).height();
 
     $('.window-tint').css({'opacity': opacity});
 

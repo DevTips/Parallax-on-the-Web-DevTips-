@@ -53,6 +53,15 @@ Releases correspond to the videos. Visit the releases page on this repo to find 
 
 - Grab the code we wrote in this video. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.5).
 
+
+
+## Video 7 - "Floating Elements"
+
+<a href="https://youtu.be/LoouHSB0BMM"><img src="https://i.ytimg.com/vi/LoouHSB0BMM/mqdefault.jpg"><br>Watch on YouTube</a>
+
+- Grab the code we wrote in this video. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.6).
+
+
 ---
 
 

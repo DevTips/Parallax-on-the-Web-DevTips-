@@ -35,4 +35,14 @@ $(window).scroll(function(){
 
   }
 
+  if(wScroll > $('.blog-posts').offset().top - $(window).height()){
+
+    var offset = Math.min(0, wScroll - $('.blog-posts').offset().top +$(window).height() - 350);
+
+    $('.post-1').css({'transform': 'translate('+ offset +'px, '+ Math.abs(offset * 0.2) +'px)'});
+
+    $('.post-3').css({'transform': 'translate('+ Math.abs(offset) +'px, '+ Math.abs(offset * 0.2) +'px)'});
+
+  }
+
 });

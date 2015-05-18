@@ -953,6 +953,7 @@ img {
   background-repeat: repeat-y;
   background-attachment: fixed;
   margin-top: 100px;
+  margin-bottom: 100px;
   border-radius: 50%;
   position: relative; }
   .large-window .window-tint {
@@ -990,3 +991,17 @@ img {
       .large-window .promo-text .window-cta:hover {
         background: white;
         color: black; }
+
+.blog-posts {
+  margin-top: 100px; }
+  .blog-posts .post {
+    border: 1px solid #e1e1e1;
+    padding: 20px 20px 0;
+    background: white;
+    position: relative; }
+  .blog-posts .post-1 {
+    transform: translate(100px, 20px); }
+  .blog-posts .post-2 {
+    z-index: 2; }
+  .blog-posts .post-3 {
+    transform: translate(-100px, 20px); }

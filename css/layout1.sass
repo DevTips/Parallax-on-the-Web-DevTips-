@@ -2,6 +2,7 @@
 
 body
   font-family: "Open Sans", sans-serif
+  overflow-x: hidden
 
 h1
   color: #ccc
@@ -14,7 +15,7 @@ figure
   position: relative
   z-index: 2
   background: white
-  margin-bottom: 400px
+  margin-bottom: 350px
 
   article
     padding: 100px 0
@@ -26,25 +27,32 @@ img
   max-width: 100%
 
 
+::-moz-selection
+  background: transparentize(#000, 0.9)
+
+::selection
+  background: transparentize(#000, 0.9)
+
 
 
 // Parallax
 
 .bird-box
   position: relative
-  height: 600px
+  height: 100vh
   background:
-    image: url(/images/bird-bg.jpg)
-    size: auto 600px
+    image: url(../images/bird-bg.jpg)
+    size: auto 100vh
     position: top center
     attachment: fixed
   overflow: hidden
+  z-index: 3
 
 .logo
   height: 100px
   width: 100%
   background:
-    image: url(/images/black-bird-logo.svg)
+    image: url(../images/black-bird-logo.svg)
     position: center
     repeat: no-repeat
   position: absolute
@@ -55,7 +63,7 @@ img
   width: 960px
   height: 733px
   background:
-    image: url(/images/fore-bird.png)
+    image: url(../images/fore-bird.png)
     repeat: no-repeat
     position: right bottom
   position: absolute
@@ -67,7 +75,7 @@ img
   width: 960px
   height: 298px
   background:
-    image: url(/images/back-bird.png)
+    image: url(../images/back-bird.png)
     repeat: no-repeat
     position: top left
   position: absolute
@@ -104,7 +112,9 @@ img
         left: 0%
 
       img
-        transform: scale(1.1)
+        transform: scale(1.2)
+        -webkit-filter: blur(1px) grayscale(40%)
+        filter: blur(1px) grayscale(40%)
 
   figcaption
     position: absolute
@@ -123,7 +133,7 @@ img
 .large-window
   height: 640px
   background:
-    image: url(/images/model2.jpg)
+    image: url(../images/model2.jpg)
     position: center 0px
     repeat: repeat-y
     attachment: fixed
@@ -144,7 +154,6 @@ img
     justify-content: center
     align-items: center
     opacity: 0
-
 
   .promo-text
     color: white
@@ -174,6 +183,25 @@ img
       &:hover
         background: white
         color: black
+
+
+blockquote
+  border-left: 5px solid darken(#D0D0D0, 20%)
+  color: darken(#D0D0D0, 20%)
+  padding-left: 10px
+  font:
+    size: 1.5em
+    style: italic
+    family: 'Merriweather', serif
+
+  p
+    a
+      color: darken(#d0d0d0, 10%)
+      text-decoration: none
+
+      &:hover
+        color: darken(#D0D0D0, 30%)
+
 
 
 // posts
@@ -213,6 +241,7 @@ footer
 
   a
     color: white
+    text-decoration: none
 
   input
     color: #666

@@ -1,11 +1,13 @@
 @import vars
     
-// Typography
+//
 
 ::selection
   color: inherit
   background: $secundary-faded
-
+::-moz-selection
+  color: inherit
+  background: $secundary-faded
 .h
   -webkit-touch-callout: none
   -webkit-user-select: none
@@ -13,9 +15,8 @@
   -moz-user-select: none
   -ms-user-select: none
   user-select: none
-
 hr
-  border-top: 1px solid $title
+  border-top: 1px solid $hr
   margin-top: 10px
   margin-bottom: 15px
 hr.solid
@@ -23,11 +24,10 @@ hr.solid
 hr.dashed
   border-top: 1.5px dashed $title-smooth
 
-// Images
+//
 
 .cover-image
   background-color: $secundary-faded
-
 .tile
   width: 100%
   height: 100%
@@ -36,22 +36,74 @@ hr.dashed
     font-family: "Open Sans", sans-serif
   background: $secundary-faded
 
-// Periscope
+//
 
 .large-window.periscope-1
-  background-image: url(/images/model11.jpg)
-.large-window.periscope-2
   background-image: url(/images/model17.jpg)
-
+  background-position: top
+  margin-top: 40px
+.large-window.periscope-2
+  background-image: url(/images/model11.jpg)
+  background-position: center
 .large-window:hover
   background:
     color: $secundary-faded
     blend-mode: multiply
     
-// Other
+//
+
+.post
+  padding: 10px 0px 10px 0px
+  h5
+    margin: 0px 0 10px 0
+  p
+    margin: 10px 0 10px 0
+  img
+    width: 100%
+    height: 100%
+    max-height: 100%
+  a
+    transition: 1s
+    font-size: 12px
+    text-decoration: none
+    color: $text
+    border: 1px solid $hr
+    border-radius: 8%
+    bottom: 0px
+    margin: 0 0 0 0
+    padding: 0 10 0 20
+    transition: all 0.3s ease-in-out
+    &:hover
+      transition: 1s
+      background: $secundary-faded
+      border-color: $secundary-faded
+      color: $text
+    
+//
 
 footer
-  p, a
-    text-align: center
-    color: $text-smooth
-    text-decoration: none
+  .columns.three
+    a
+      transition: 1s
+      padding-left: 20px
+      color: $secundary-faded
+      &:hover
+        transition: 1s
+        color: $secundary
+  .columns.six
+    padding: 45px 0 0 40px
+    input
+      color: $text
+      &:active
+        border-color: $secundary
+    .button
+      transition: 1s
+      font-size: 12px
+      padding: 0 20px
+      background-color: $secundary-faded
+      border-color: $text
+      color: white
+      &:hover
+        transition: 1s
+        background-color: $secundary
+        color: white

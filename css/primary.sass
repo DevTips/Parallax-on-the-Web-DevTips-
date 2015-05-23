@@ -1,47 +1,50 @@
 @import vars
 
-// Base Styles
+//
 
 body
   font-family: "Open Sans", sans-serif
-
 h1
-  font-size: 6.5rem
+  font-size: 5rem
   color: $title
   weight: 400
   margin-top: -25px
-
 h2
   font-size: 2.1rem
   font-weight: 400
   text-transform: uppercase
   margin-top: -15px
-
 figure
   margin: auto
-
 .content
+  position: relative
+  z-index: 2
+  background: white
+  margin-bottom: 250px
   article
-    padding: 100px 0
+    padding: 100px 0 0 0
     max-width: 640px
     margin: 0 auto
     text-align: center
-
 img
   max-width: 100%
+.main-title
+  font-size: 6.3rem
+  margin-top: -40px
+  padding-top: 0px
 
-// Parallax
+//
 
 .bird-box
   position: relative
-  height: 600px
+  height: 780px
   background:
     image: url(/images/bird-bg.jpg)
-    size: auto 600px
+    size: auto 800px
     position: top center
     attachment: fixed
   overflow: hidden
-
+  z-index: 3
 .logo
   height: 100px
   width: 100%
@@ -52,7 +55,6 @@ img
   position: absolute
   top: 50%
   margin-top: -50px
-
 .fore-bird
   width: 960px
   height: 733px
@@ -63,8 +65,7 @@ img
   position: absolute
   left: 50%
   margin-left: -285px
-  top: 250px
-
+  top: 300px
 .back-bird
   width: 960px
   height: 298px
@@ -76,12 +77,11 @@ img
   left: 50%
   margin-left: -480px
 
-// Model Grid
+//
 
 .clothes-pics
-  margin-top: 35px
-  margin-bottom: 25px
-
+  margin-top: 40px
+  margin-bottom: 100px
   figure
     margin-bottom: 20px
     position: relative
@@ -90,23 +90,18 @@ img
     transition: all 0.3s ease-in-out
     overflow: hidden
     cursor: pointer
-
     &.is-showing
       opacity: 1
       transform: translateX(0px)
-
     img
       display: block
       transform: scale(1)
       transition: all 0.3s ease-in-out
-
     &:hover
       figcaption
         left: 0%
-
       img
         transform: scale(0.8)
-
   figcaption
     position: absolute
     bottom: 10px
@@ -117,20 +112,18 @@ img
     font-size: 11px
     transition: all 0.3s ease-in-out
 
-// large-window
+//
 
 .large-window
   height: 640px
   background:
     position: center 0px
-    repeat: repeat-y
     attachment: fixed
   margin-top: 100px
   margin-bottom: 100px
   border-radius: 50%
   position: relative
   cursor: pointer
-
   .window-tint
     background-color: rgba(0,0,0,0.5)
     position: absolute
@@ -143,34 +136,67 @@ img
     justify-content: center
     align-items: center
     opacity: 0
-
-
   .promo-text
     color: white
     font-weight: 100
     font-size: 50px
     line-height: 1.2
-
     strong
       display: block
       font-size: 30px
-
     span
       font:
         weight: 300
         size: 18px
         style: italic
       color: rgba(255,255,255,0.6)
-
-    .window-cta
+    a.window-cta
+      margin-top: 40px
       font-size: 20px
       text-decoration: none
       color: white
       border: 1px solid white
-      border-radius: 15%
+      border-radius: 8%
       padding: 10px 20px
       transition: all 0.3s ease-in-out
-
       &:hover
         background: white
         color: black
+
+//
+
+.blog-posts
+  margin-top: 0px
+  margin-bottom: 100px
+  .post
+    border: 1px solid $hr
+    margin-top: 40px
+    background: white
+    position: relative
+  .post-1
+    transform: translate(100px, 20px)
+  .post-2
+    z-index: 2
+  .post-3
+    transform: translate(-100px, 20px)
+  .post-4
+    margin: 25px 0 60px 0
+    
+//
+
+footer
+  background: $text
+  color: white
+  padding: 40px 0
+  position: fixed
+  bottom: 0
+  width: 100%
+  .footer-stuff
+    max-width: 640px
+    margin: 0 auto
+  ul
+    padding-top: 20px
+    list-style-type: none
+  a
+    color: white
+    text-decoration: none

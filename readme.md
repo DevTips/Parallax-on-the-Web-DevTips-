@@ -1,7 +1,76 @@
-# DevTips Show: Parallax On The Web
+# Parallax On The Web - Project Files
 
-That's what I've been messing with watching <a href="http://https://www.youtube.com/user/DevTipsForDesigners">DevTips</a>
-(the best channel for developers on YouTube).
+Video Series [ for free on YouTube](https://www.youtube.com/playlist?list=PLqGj3iMvMa4IyCbhul-PdeiDqmh4ooJzk) on the [DevTips](https://www.youtube.com/user/DevTipsForDesigners) Channel
 
-<b>Updated to video 8 - "Revealed Footer"</b><br><br>
-<a href="https://www.youtube.com/watch?v=VH0iYda6KNs&feature=youtu.be"><img src="https://camo.githubusercontent.com/45679bc7e801263cd60f2b4122c1c48086568047/68747470733a2f2f692e7974696d672e636f6d2f76692f56483069596461364b4e732f6d7164656661756c742e6a7067"></a>
+## Releases
+
+Releases correspond to the videos. Visit the releases page on this repo to find the specific state of the code base. In other words; if you are watching video 2 and want to grab the code form that point. You will want to look for that [here](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases), or below.
+
+## Video 1 - "Intro to Parallax on the Web"
+
+<a href="https://youtu.be/STwoa-9jxi0"><img src="https://i.ytimg.com/vi/STwoa-9jxi0/mqdefault.jpg"><br>Watch on YouTube</a>
+
+- There is no code for this video, it's an introductory video
+
+
+
+## Video 2 - "Parallax Header"
+
+<a href="https://youtu.be/WTZpNAbz3jg"><img src="https://i.ytimg.com/vi/WTZpNAbz3jg/mqdefault.jpg"><br>Watch on YouTube</a>
+
+- This is where the project starts. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.0).
+- This is where the project stops at the end of this video. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.1).
+
+
+
+## Video 3 - "Landing Elements"
+
+<a href="https://youtu.be/-iOdDz2LnEk"><img src="https://i.ytimg.com/vi/-iOdDz2LnEk/mqdefault.jpg"><br>Watch on YouTube</a>
+
+- Grab the code we wrote in this video. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.2).
+
+
+
+## Video 4 - "The Periscope"
+
+<a href="https://youtu.be/uYPdA_SFSDw"><img src="https://i.ytimg.com/vi/uYPdA_SFSDw/mqdefault.jpg"><br>Watch on YouTube</a>
+
+- Grab the code we wrote in this video. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.3).
+
+
+
+## Video 5 - "Zooming Thumbnails"
+
+<a href="https://youtu.be/KzP7YXcHNcE"><img src="https://i.ytimg.com/vi/KzP7YXcHNcE/mqdefault.jpg"><br>Watch on YouTube</a>
+
+- Grab the code we wrote in this video. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.4).
+
+
+
+## Video 6 - "Promo-Scope"
+
+<a href="https://youtu.be/zEXubVd_y_M"><img src="https://i.ytimg.com/vi/zEXubVd_y_M/mqdefault.jpg"><br>Watch on YouTube</a>
+
+- Grab the code we wrote in this video. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.5).
+
+
+
+## Video 7 - "Floating Elements"
+
+<a href="https://youtu.be/LoouHSB0BMM"><img src="https://i.ytimg.com/vi/LoouHSB0BMM/mqdefault.jpg"><br>Watch on YouTube</a>
+
+- Grab the code we wrote in this video. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.6).
+
+
+## Video 8 - "Revealed Footer"
+
+<a href="https://youtu.be/VH0iYda6KNs"><img src="https://i.ytimg.com/vi/VH0iYda6KNs/mqdefault.jpg"><br>Watch on YouTube</a>
+
+
+- Grab the code we wrote in this video. [Get the code](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases/tag/v0.7).
+
+
+---
+
+
+_If this stuff is helpful, consider subscribing to my [YouTube Channel](https://www.youtube.com/user/DevTipsForDesigners)_

@@ -29,8 +29,8 @@ html(lang="en")
     section.content    
     
       article
-        h1.h Clothing Store
-        h2.h - Special sale for DevTips members -
+        h1.main-title.h Unique Stile
+        h2.h - Special sale for DevTips community members -
         hr.h
         p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas a posuere eros, vitae aliquam orci. Duis rutrum ipsum et mauris imperdiet tempus id quis risus. In tellus massa, imperdiet a sem vitae, dapibus feugiat urna. Etiam dapibus nisi vitae sapien consectetur, in finibus dui efficitur. Donec finibus tellus mi, vitae rhoncus velit lacinia non. Aliquam at convallis est. Nam nulla leo, accumsan eget suscipit sit amet, blandit eget magna.
         hr.h
@@ -76,26 +76,72 @@ html(lang="en")
                 img(src="/images/model12.jpg").h
               figcaption BlackBird Sweater - <strong>$115</strong>
     
+        h1.h Fine Tayloring
         hr.h
         p Quisque nec faucibus sapien. Nulla ac iaculis lorem. Pellentesque lacus dolor, euismod quis feugiat faucibus, vestibulum et est. Suspendisse tempus luctus neque at accumsan. Mauris sed mi est. Vivamus consectetur lacus quam, at suscipit libero dignissim non.        
         hr.h
         
         .large-window.periscope-1.h
           .window-tint.periscope-1
-            .promo-text Fall Suits
-              strong <span>from</span> $99
+            .promo-text Winter collection <br>
               a(href="").window-cta Shop Now
+              
         .large-window.periscope-2.h
           .window-tint.periscope-2
-            .promo-text Fall Suits
-              strong <span>from</span> $99
+            .promo-text Autumn collection <br>
               a(href="").window-cta Shop Now
         
-        h1.h More coming soon!
+        h1.h Latest News
         hr.h
-        p Morbi luctus erat odio, non congue lectus porta ac. Morbi mattis mattis diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sollicitudin consectetur sem, nec pretium elit volutpat sit amet. Vestibulum ac mi at odio consectetur euismod sollicitudin finibus ante. Duis sit amet tortor orci. Phasellus lobortis ornare massa, sed dictum tortor malesuada vel. Phasellus vel egestas augue, vitae aliquet magna.
-        hr.h    
+        p Morbi luctus erat odio, non congue lectus porta ac. Morbi mattis mattis diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>Here the latest articles:
+        hr.h
+        
+        .blog-posts.row
+          
+          .post.columns.four.post-1
+            h5 New Collection
+            img(src="/images/model15.jpg")
+            p Incididunt ut labore et dolore magna.
+            p: a.button(href="") Read More
+            
+          .post.columns.four.post-2
+            h5 The Stylist
+            img(src="/images/model38.jpg")
+            p Donec finibus tellus mi, vitae rhoncus velit lacinia non def curisti.
+            p: a.button(href="") Read More
+            
+          .post.columns.four.post-3
+            h5 New Collection
+            img(src="/images/model31.jpg")
+            p Duis aute irure dolor in reprehenderit.
+            p: a.button(href="") Read More
+        
+          .post.columns.twelve.post-4
+            h5 Membership
+            img(src="/images/DevTips.png")
+            p Integer pharetra urna ut volutpat ornare. Praesent pharetra ut enim et<br>sodales. Cras sagittis suscipit dui, imperdiet felis impredet.
+            p: a.button(href="") Read More
         
   footer
-  
-    p.h Made with <3 by me, <a href="http://aldesign.it">Andrea</a> - thanks to <a href="https://twitter.com/travisneilson">@travisneilson</a> of <a href="https://youtube.com/DevTips-for-Designers">DevTips<a>.
+      .row.footer-stuff
+        .columns.three
+          strong FIND US ON:
+          ul
+            li: a(href="") Twitter
+            li: a(href="") Facebook
+            li: a(href="") Pinterest
+            li: a(href="") Instagram
+        .columns.three
+          strong OTHER SHOPS:
+          ul
+            li: a(href="") Red Robin
+            li: a(href="") Emerald Eagle
+            li: a(href="") Crimson Crane
+            li: a(href="") Auburn Abbot
+        .columns.six
+          p If you want, you can sign up for our monthly newsletter:
+          form.row
+            .columns.eight
+              input.u-full-width(type="email" placeholder="Your Email")
+            .columns.four
+              input.button(type="submit" value="submit")

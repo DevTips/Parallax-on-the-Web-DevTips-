@@ -883,7 +883,7 @@ img {
 .bird-box {
   position: relative;
   height: 600px;
-  background-image: url(/images/bird-bg.jpg);
+  background-image: url(../images/bird-bg.jpg);
   background-size: auto 600px;
   background-position: top center;
   background-attachment: fixed;
@@ -892,7 +892,7 @@ img {
 .logo {
   height: 100px;
   width: 100%;
-  background-image: url(/images/black-bird-logo.svg);
+  background-image: url(../images/black-bird-logo.svg);
   background-position: center;
   background-repeat: no-repeat;
   position: absolute;
@@ -902,7 +902,7 @@ img {
 .fore-bird {
   width: 960px;
   height: 733px;
-  background-image: url(/images/fore-bird.png);
+  background-image: url(../images/fore-bird.png);
   background-repeat: no-repeat;
   background-position: right bottom;
   position: absolute;
@@ -913,7 +913,7 @@ img {
 .back-bird {
   width: 960px;
   height: 298px;
-  background-image: url(/images/back-bird.png);
+  background-image: url(../images/back-bird.png);
   background-repeat: no-repeat;
   background-position: top left;
   position: absolute;
@@ -953,7 +953,7 @@ img {
 
 .large-window {
   height: 640px;
-  background-image: url(/images/model2.jpg);
+  background-image: url(../images/model2.jpg);
   background-position: center 0px;
   background-repeat: repeat-y;
   background-attachment: fixed;

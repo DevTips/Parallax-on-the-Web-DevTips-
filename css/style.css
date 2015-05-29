@@ -868,9 +868,9 @@ figure {
 
 .content {
   position: relative;
-  z-index: 2;
   background: white;
-  margin-bottom: 400px; }
+  margin-bottom: 400px;
+  overflow: hidden; }
   .content article {
     padding: 100px 0;
     max-width: 640px;
@@ -1017,7 +1017,8 @@ footer {
   padding: 40px 0;
   position: fixed;
   bottom: 0;
-  width: 100%; }
+  width: 100%;
+  z-index: -1; }
   footer .footer-stuff {
     max-width: 640px;
     margin: 0 auto; }
@@ -1025,3 +1026,4 @@ footer {
     color: white; }
   footer input {
     color: #666; }
+    

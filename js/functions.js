@@ -20,6 +20,8 @@ $(window).scroll(function(){
 
   }
 
+
+  // Landing Elements
   if(wScroll > $('.clothes-pics').offset().top - ($(window).height() / 1.2)) {
 
     $('.clothes-pics figure').each(function(i){
@@ -31,6 +33,8 @@ $(window).scroll(function(){
 
   }
 
+
+  // Promoscope
   if(wScroll > $('.large-window').offset().top - $(window).height()){
 
     $('.large-window').css({'background-position':'center '+ (wScroll - $('.large-window').offset().top) +'px'});
@@ -41,16 +45,16 @@ $(window).scroll(function(){
 
   }
 
+
+  // Floating Elements
+
   if(wScroll > $('.blog-posts').offset().top - $(window).height()){
 
-    var offset = wScroll - $('.blog-posts').offset().top +$(window).height() - 350;
-    if(offset > 0) {
+    var offset = (Math.min(0, wScroll - $('.blog-posts').offset().top +$(window).height() - 350)).toFixed();
+
     $('.post-1').css({'transform': 'translate('+ offset +'px, '+ Math.abs(offset * 0.2) +'px)'});
 
-    $('.post-3').css({'transform': 'translate('+ Math.abs(offset) +'px, '+ Math.abs(offset * 0.2) +'px)'});  
-    }
-    
+    $('.post-3').css({'transform': 'translate('+ Math.abs(offset) +'px, '+ Math.abs(offset * 0.2) +'px)'});
 
   }
-
 });

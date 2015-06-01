@@ -1,4 +1,8 @@
-var pContainerHeight = $('.bird-box').height();
+var $birdbox = $('.bird-box');
+$(function() {
+  $birdbox.css('height', $(window).height());
+});
+var pContainerHeight = $birdbox.height();
 
 $(window).scroll(function(){
 

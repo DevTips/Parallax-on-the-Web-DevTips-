@@ -25,9 +25,9 @@ $(window).scroll(function(){
   if(wScroll > $('.clothes-pics').offset().top - ($(window).height() / 1.2)) {
 
     $('.clothes-pics figure').each(function(i){
-
+      var figure = $(this);
       setTimeout(function(){
-        $('.clothes-pics figure').eq(i).addClass('is-showing');
+        figure.addClass('is-showing');
       }, (700 * (Math.exp(i * 0.14))) - 700);
     });
 

@@ -1012,6 +1012,7 @@ img {
     transform: translate(-100px, 20px); }
 
 footer {
+  display: none;
   background: black;
   color: white;
   padding: 40px 0;

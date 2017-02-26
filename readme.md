@@ -2,6 +2,9 @@
 
 Video Series [ for free on YouTube](https://www.youtube.com/playlist?list=PLqGj3iMvMa4IyCbhul-PdeiDqmh4ooJzk) on the [DevTips](https://www.youtube.com/user/DevTipsForDesigners) Channel
 
+Github Pages Link : http://devtips.github.io/Parallax-on-the-Web-DevTips-/
+
+
 ## Releases
 
 Releases correspond to the videos. Visit the releases page on this repo to find the specific state of the code base. In other words; if you are watching video 2 and want to grab the code form that point. You will want to look for that [here](https://github.com/DevTips/Parallax-on-the-Web-DevTips-/releases), or below.

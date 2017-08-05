@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -443,17 +443,21 @@ th {
   .nine.columns {
     width: 74.0%; }
 
-  .ten.columns {
+  .ten.columns 
+{
     width: 82.6666666667%; }
 
-  .eleven.columns {
+  
+.eleven.columns {
     width: 91.3333333333%; }
 
-  .twelve.columns {
+  
+.twelve.columns {
     width: 100%;
     margin-left: 0; }
 
-  .one-third.column {
+  
+.one-third.column {
     width: 30.6666666667%; }
 
   .two-thirds.column {
@@ -998,7 +1002,7 @@ img {
         color: black; }
 
 .blog-posts {
-  margin-top: 100px; }
+  margin-top: 100px;   }
   .blog-posts .post {
     border: 1px solid #e1e1e1;
     padding: 20px 20px 0;

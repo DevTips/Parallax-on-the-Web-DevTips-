@@ -46,7 +46,8 @@ $(window).scroll(function(){
   }
 
 
-  // Floating Elements
+  
+// Floating Elements
 
   if(wScroll > $('.blog-posts').offset().top - $(window).height()){
 

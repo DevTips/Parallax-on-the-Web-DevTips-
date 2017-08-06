@@ -46,7 +46,8 @@ $(window).scroll(function(){
   }
 
 
-  // Floating Elements
+  
+// Floating Elements
 
   if(wScroll > $('.blog-posts').offset().top - $(window).height()){
 
@@ -57,4 +58,9 @@ $(window).scroll(function(){
     $('.post-3').css({'transform': 'translate('+ Math.abs(offset) +'px, '+ Math.abs(offset * 0.2) +'px)'});
 
   }
+});
+
+
+$(document).ready(function(){
+  $("footer").css("display","block");
 });

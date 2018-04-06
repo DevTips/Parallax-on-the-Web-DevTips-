@@ -50,11 +50,15 @@ $(window).scroll(function(){
 
   if(wScroll > $('.blog-posts').offset().top - $(window).height()){
 
-    var offset = (Math.min(0, wScroll - $('.blog-posts').offset().top +$(window).height() - 350)).toFixed();
+    var offset = (Math.min(0, wScroll - $('.blog-posts').offset().top + $(window).height() - 350)).toFixed();
 
-    $('.post-1').css({'transform': 'translate('+ offset +'px, '+ Math.abs(offset * 0.2) +'px)'});
+    var transparency = (wScroll - $('.blog-posts').offset().top + $(window).height()) / (wScroll / 8);
 
-    $('.post-3').css({'transform': 'translate('+ Math.abs(offset) +'px, '+ Math.abs(offset * 0.2) +'px)'});
+    $('.post-1').css({'transform': 'translate('+ offset +'px, '+ Math.abs(offset * 0.2) +'px)', 'opacity': transparency});
+
+    $('.post-2').css({'opacity': transparency});
+
+    $('.post-3').css({'transform': 'translate('+ Math.abs(offset) +'px, '+ Math.abs(offset * 0.2) +'px)', 'opacity': transparency});
 
   }
 });
